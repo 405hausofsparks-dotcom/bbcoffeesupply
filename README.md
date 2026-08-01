@@ -41,21 +41,22 @@ footer year. It can be hosted on any static host; this repo is set up for
 
 ---
 
-## Before going live: replace placeholders
+## Before going live: remaining setup
 
-Several values appear in more than one place (visible page **and** SEO/Schema
-blocks). Search the whole repo and replace every occurrence.
+The live domain, business email, and phone placeholders have been filled in:
+the site now uses `bbcoffeesupply.com` and `wholesale@bbcoffeesupply.com`
+throughout, and since no phone line is active yet, the contact section shows
+"Phone support coming soon." instead of a placeholder number. A few optional
+third-party integrations still need your own account IDs before they'll work:
 
 | Placeholder | Where | Replace with |
 |---|---|---|
-| `YOUR-DOMAIN.com` | `index.html`, `404.html`, `robots.txt`, `sitemap.xml` | Your live domain |
-| `YOUR-EMAIL@YOUR-DOMAIN.com` | `index.html` | Your business email |
-| `(000) 000-0000` / `+10000000000` | `index.html` | Your phone (tel: version has no spaces) |
-| `YOUR_FORM_ID` | `index.html` contact form | Your Formspree form ID (see below) |
+| `YOUR_FORM_ID` | `index.html`, `private-label/index.html` contact forms | Your Formspree form ID (see below) |
 | `G-XXXXXXXXXX` | `index.html` GA4 block | Your GA4 Measurement ID |
 | `PASTE-VERIFICATION-TOKEN-HERE` | `index.html` | Google Search Console token |
 
-The business address (328 SW 40th St, Moore, OK 73160) is already filled in.
+The business name and address (Bombed & Burnt Coffee Co. / B&B Coffee Supply,
+328 SW 40th St, Moore, OK 73160) are already filled in.
 
 ### Contact form
 
@@ -74,7 +75,7 @@ included to reduce spam.
 
 1. In Search Console, add your domain and choose **HTML tag** verification.
 2. Paste the token into the `google-site-verification` meta tag in `index.html`.
-3. After deploy, submit `https://www.YOUR-DOMAIN.com/sitemap.xml`.
+3. After deploy, submit `https://www.bbcoffeesupply.com/sitemap.xml`.
 
 ---
 
