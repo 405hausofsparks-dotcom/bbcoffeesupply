@@ -2,7 +2,7 @@
 
 Official website for **B&B Coffee Supply**, the wholesale coffee distribution
 division of **Bombed & Burnt Coffee Co.** — veteran-founded in Moore, Oklahoma,
-shipping fresh-roasted wholesale, bulk, and private-label coffee nationwide.
+shipping premium wholesale, bulk, and private-label coffee nationwide.
 
 A fast, static, single-page marketing site. **No build step, no framework.**
 Plain HTML5 + CSS3, with a small vanilla-JS layer for the mobile menu and
