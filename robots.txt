@@ -1,0 +1,6 @@
+# robots.txt for B&B Coffee Supply
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://www.YOUR-DOMAIN.com/sitemap.xml
